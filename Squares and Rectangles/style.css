@@ -1,0 +1,30 @@
+#rectA {
+  background: #cefff9;
+  width: 652px;
+  height: 100.05px;
+  }
+  
+#squareA {
+  background: #ffe3ce;
+  width: 195.6px;
+  height: 195.6px;
+}
+
+#recB {
+  background: #eed3ff;
+  width: 100%;
+}
+ #recB::before {
+  content: "";
+  display: block;
+  padding-top: 25%;
+}
+#squareB {
+  background: #d3ffee;
+  width: 30%;
+}
+#squareB::before {
+  content: "";
+  display: block;
+  padding-top: 100%;
+}
